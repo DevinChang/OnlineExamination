@@ -1,0 +1,3 @@
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/WritenExamination.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/edit_cache.dir
