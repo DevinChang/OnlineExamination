@@ -84,6 +84,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/Graph.cpp">
+			<Option target="WritenExamination"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/WritenExamination/KuaiShou825.cpp">
+			<Option target="WritenExamination"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/WritenExamination/KuaiShou825.h">
+			<Option target="WritenExamination"/>
+		</Unit>
 		<Unit filename="/home/devinchang/Code/WritenExamination/MeiTuan8_22.cpp">
 			<Option target="WritenExamination"/>
 		</Unit>

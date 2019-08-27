@@ -2,6 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/WritenExamination.dir/MeiTuan8_22.cpp.o"
   "CMakeFiles/WritenExamination.dir/main.cpp.o"
   "CMakeFiles/WritenExamination.dir/Yuan824.cpp.o"
+  "CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.o"
+  "CMakeFiles/WritenExamination.dir/DateStructure/Graph.cpp.o"
   "WritenExamination.pdb"
   "WritenExamination"
 )

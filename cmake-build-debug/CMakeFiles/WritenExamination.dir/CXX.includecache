@@ -6,31 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/devinchang/Code/WritenExamination/MeiTuan8_22.cpp
-set
+/home/devinchang/Code/WritenExamination/KuaiShou825.cpp
+KuaiShou825.h
+/home/devinchang/Code/WritenExamination/KuaiShou825.h
+string.h
 -
-MeiTuan8_22.h
-/home/devinchang/Code/WritenExamination/MeiTuan8_22.h
 
-/home/devinchang/Code/WritenExamination/MeiTuan8_22.h
-stdx.h
-/home/devinchang/Code/WritenExamination/stdx.h
-
-/home/devinchang/Code/WritenExamination/stdx.h
+/home/devinchang/Code/WritenExamination/KuaiShou825.h
 iostream
--
-string
--
-vector
--
-map
--
-unordered_map
 -
 list
 -
-deque
--
-stack
+vector
 -
 

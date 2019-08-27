@@ -123,6 +123,60 @@ WritenExamination/fast:
 	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/build
 .PHONY : WritenExamination/fast
 
+DateStructure/Graph.o: DateStructure/Graph.cpp.o
+
+.PHONY : DateStructure/Graph.o
+
+# target to build an object file
+DateStructure/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/DateStructure/Graph.cpp.o
+.PHONY : DateStructure/Graph.cpp.o
+
+DateStructure/Graph.i: DateStructure/Graph.cpp.i
+
+.PHONY : DateStructure/Graph.i
+
+# target to preprocess a source file
+DateStructure/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/DateStructure/Graph.cpp.i
+.PHONY : DateStructure/Graph.cpp.i
+
+DateStructure/Graph.s: DateStructure/Graph.cpp.s
+
+.PHONY : DateStructure/Graph.s
+
+# target to generate assembly for a file
+DateStructure/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/DateStructure/Graph.cpp.s
+.PHONY : DateStructure/Graph.cpp.s
+
+KuaiShou825.o: KuaiShou825.cpp.o
+
+.PHONY : KuaiShou825.o
+
+# target to build an object file
+KuaiShou825.cpp.o:
+	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.o
+.PHONY : KuaiShou825.cpp.o
+
+KuaiShou825.i: KuaiShou825.cpp.i
+
+.PHONY : KuaiShou825.i
+
+# target to preprocess a source file
+KuaiShou825.cpp.i:
+	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.i
+.PHONY : KuaiShou825.cpp.i
+
+KuaiShou825.s: KuaiShou825.cpp.s
+
+.PHONY : KuaiShou825.s
+
+# target to generate assembly for a file
+KuaiShou825.cpp.s:
+	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.s
+.PHONY : KuaiShou825.cpp.s
+
 MeiTuan8_22.o: MeiTuan8_22.cpp.o
 
 .PHONY : MeiTuan8_22.o
@@ -213,6 +267,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... WritenExamination"
 	@echo "... edit_cache"
+	@echo "... DateStructure/Graph.o"
+	@echo "... DateStructure/Graph.i"
+	@echo "... DateStructure/Graph.s"
+	@echo "... KuaiShou825.o"
+	@echo "... KuaiShou825.i"
+	@echo "... KuaiShou825.s"
 	@echo "... MeiTuan8_22.o"
 	@echo "... MeiTuan8_22.i"
 	@echo "... MeiTuan8_22.s"
