@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/WritenExamination.dir/MeiTuan8_22.cpp.o CMakeFiles/WritenExamination.dir/main.cpp.o CMakeFiles/WritenExamination.dir/Yuan824.cpp.o CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.o CMakeFiles/WritenExamination.dir/DateStructure/Graph.cpp.o  -o WritenExamination 
+/usr/bin/c++  -g   CMakeFiles/WritenExamination.dir/MeiTuan8_22.cpp.o CMakeFiles/WritenExamination.dir/main.cpp.o CMakeFiles/WritenExamination.dir/Yuan824.cpp.o CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.o  -o WritenExamination 

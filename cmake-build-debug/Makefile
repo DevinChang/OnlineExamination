@@ -111,152 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named WritenExamination
+# Target rules for targets named Ali
 
 # Build rule for target.
-WritenExamination: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 WritenExamination
-.PHONY : WritenExamination
+Ali: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Ali
+.PHONY : Ali
 
 # fast build rule for target.
-WritenExamination/fast:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/build
-.PHONY : WritenExamination/fast
+Ali/fast:
+	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/build
+.PHONY : Ali/fast
 
-DateStructure/Graph.o: DateStructure/Graph.cpp.o
+Ali830.o: Ali830.cpp.o
 
-.PHONY : DateStructure/Graph.o
-
-# target to build an object file
-DateStructure/Graph.cpp.o:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/DateStructure/Graph.cpp.o
-.PHONY : DateStructure/Graph.cpp.o
-
-DateStructure/Graph.i: DateStructure/Graph.cpp.i
-
-.PHONY : DateStructure/Graph.i
-
-# target to preprocess a source file
-DateStructure/Graph.cpp.i:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/DateStructure/Graph.cpp.i
-.PHONY : DateStructure/Graph.cpp.i
-
-DateStructure/Graph.s: DateStructure/Graph.cpp.s
-
-.PHONY : DateStructure/Graph.s
-
-# target to generate assembly for a file
-DateStructure/Graph.cpp.s:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/DateStructure/Graph.cpp.s
-.PHONY : DateStructure/Graph.cpp.s
-
-KuaiShou825.o: KuaiShou825.cpp.o
-
-.PHONY : KuaiShou825.o
+.PHONY : Ali830.o
 
 # target to build an object file
-KuaiShou825.cpp.o:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.o
-.PHONY : KuaiShou825.cpp.o
+Ali830.cpp.o:
+	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/Ali830.cpp.o
+.PHONY : Ali830.cpp.o
 
-KuaiShou825.i: KuaiShou825.cpp.i
+Ali830.i: Ali830.cpp.i
 
-.PHONY : KuaiShou825.i
-
-# target to preprocess a source file
-KuaiShou825.cpp.i:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.i
-.PHONY : KuaiShou825.cpp.i
-
-KuaiShou825.s: KuaiShou825.cpp.s
-
-.PHONY : KuaiShou825.s
-
-# target to generate assembly for a file
-KuaiShou825.cpp.s:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/KuaiShou825.cpp.s
-.PHONY : KuaiShou825.cpp.s
-
-MeiTuan8_22.o: MeiTuan8_22.cpp.o
-
-.PHONY : MeiTuan8_22.o
-
-# target to build an object file
-MeiTuan8_22.cpp.o:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/MeiTuan8_22.cpp.o
-.PHONY : MeiTuan8_22.cpp.o
-
-MeiTuan8_22.i: MeiTuan8_22.cpp.i
-
-.PHONY : MeiTuan8_22.i
+.PHONY : Ali830.i
 
 # target to preprocess a source file
-MeiTuan8_22.cpp.i:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/MeiTuan8_22.cpp.i
-.PHONY : MeiTuan8_22.cpp.i
+Ali830.cpp.i:
+	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/Ali830.cpp.i
+.PHONY : Ali830.cpp.i
 
-MeiTuan8_22.s: MeiTuan8_22.cpp.s
+Ali830.s: Ali830.cpp.s
 
-.PHONY : MeiTuan8_22.s
-
-# target to generate assembly for a file
-MeiTuan8_22.cpp.s:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/MeiTuan8_22.cpp.s
-.PHONY : MeiTuan8_22.cpp.s
-
-Yuan824.o: Yuan824.cpp.o
-
-.PHONY : Yuan824.o
-
-# target to build an object file
-Yuan824.cpp.o:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/Yuan824.cpp.o
-.PHONY : Yuan824.cpp.o
-
-Yuan824.i: Yuan824.cpp.i
-
-.PHONY : Yuan824.i
-
-# target to preprocess a source file
-Yuan824.cpp.i:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/Yuan824.cpp.i
-.PHONY : Yuan824.cpp.i
-
-Yuan824.s: Yuan824.cpp.s
-
-.PHONY : Yuan824.s
+.PHONY : Ali830.s
 
 # target to generate assembly for a file
-Yuan824.cpp.s:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/Yuan824.cpp.s
-.PHONY : Yuan824.cpp.s
-
-main.o: main.cpp.o
-
-.PHONY : main.o
-
-# target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/main.cpp.o
-.PHONY : main.cpp.o
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/WritenExamination.dir/build.make CMakeFiles/WritenExamination.dir/main.cpp.s
-.PHONY : main.cpp.s
+Ali830.cpp.s:
+	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/Ali830.cpp.s
+.PHONY : Ali830.cpp.s
 
 # Help Target
 help:
@@ -265,23 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... WritenExamination"
+	@echo "... Ali"
 	@echo "... edit_cache"
-	@echo "... DateStructure/Graph.o"
-	@echo "... DateStructure/Graph.i"
-	@echo "... DateStructure/Graph.s"
-	@echo "... KuaiShou825.o"
-	@echo "... KuaiShou825.i"
-	@echo "... KuaiShou825.s"
-	@echo "... MeiTuan8_22.o"
-	@echo "... MeiTuan8_22.i"
-	@echo "... MeiTuan8_22.s"
-	@echo "... Yuan824.o"
-	@echo "... Yuan824.i"
-	@echo "... Yuan824.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Ali830.o"
+	@echo "... Ali830.i"
+	@echo "... Ali830.s"
 .PHONY : help
 
 
