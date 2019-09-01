@@ -5,7 +5,7 @@
 		<Option title="WritenExamination"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\DateStructure\;CMake Files\DateStructure\DP\;CMake Files\DateStructure\Graph\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/devinchang/Code/WritenExamination/cmake-build-debug"/>
@@ -27,52 +27,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="Ali">
-				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/Ali" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ali"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Ali/fast">
-				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/Ali" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir=""/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/include/c++/7"/>
-					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
-					<Add directory="/usr/include/c++/7/backward"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 Ali/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/home/devinchang/Code/WritenExamination/cmake-build-debug"/>
 				<Option type="4"/>
@@ -83,12 +37,113 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="LIS">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/LIS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/Makefile&quot;  VERBOSE=1 LIS"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LIS/fast">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/LIS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/Makefile&quot;  VERBOSE=1 LIS/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BG">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/BG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/Makefile&quot;  VERBOSE=1 BG"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="BG/fast">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/BG" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/Makefile&quot;  VERBOSE=1 BG/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 		</Build>
-		<Unit filename="/home/devinchang/Code/WritenExamination/Ali830.cpp">
-			<Option target="Ali"/>
+		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/DP/LIS.cpp">
+			<Option target="LIS"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/Graph/BinaryGraph.cpp">
+			<Option target="BG"/>
 		</Unit>
 		<Unit filename="/home/devinchang/Code/WritenExamination/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/DP/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DateStructure\DP\"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/Graph/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\DateStructure\Graph\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
+  "../DateStructure/DP/CMakeLists.txt"
+  "../DateStructure/Graph/CMakeLists.txt"
   "CMakeFiles/3.14.5/CMakeCCompiler.cmake"
   "CMakeFiles/3.14.5/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.14.5/CMakeSystem.cmake"
@@ -44,9 +46,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "DateStructure/DP/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "DateStructure/Graph/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/Ali.dir/DependInfo.cmake"
+  "DateStructure/DP/CMakeFiles/LIS.dir/DependInfo.cmake"
+  "DateStructure/Graph/CMakeFiles/BG.dir/DependInfo.cmake"
   )

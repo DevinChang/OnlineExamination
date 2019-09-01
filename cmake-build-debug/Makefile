@@ -111,44 +111,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Ali
+# Target rules for targets named LIS
 
 # Build rule for target.
-Ali: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Ali
-.PHONY : Ali
+LIS: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 LIS
+.PHONY : LIS
 
 # fast build rule for target.
-Ali/fast:
-	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/build
-.PHONY : Ali/fast
+LIS/fast:
+	$(MAKE) -f DateStructure/DP/CMakeFiles/LIS.dir/build.make DateStructure/DP/CMakeFiles/LIS.dir/build
+.PHONY : LIS/fast
 
-Ali830.o: Ali830.cpp.o
+#=============================================================================
+# Target rules for targets named BG
 
-.PHONY : Ali830.o
+# Build rule for target.
+BG: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 BG
+.PHONY : BG
 
-# target to build an object file
-Ali830.cpp.o:
-	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/Ali830.cpp.o
-.PHONY : Ali830.cpp.o
-
-Ali830.i: Ali830.cpp.i
-
-.PHONY : Ali830.i
-
-# target to preprocess a source file
-Ali830.cpp.i:
-	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/Ali830.cpp.i
-.PHONY : Ali830.cpp.i
-
-Ali830.s: Ali830.cpp.s
-
-.PHONY : Ali830.s
-
-# target to generate assembly for a file
-Ali830.cpp.s:
-	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/Ali830.cpp.s
-.PHONY : Ali830.cpp.s
+# fast build rule for target.
+BG/fast:
+	$(MAKE) -f DateStructure/Graph/CMakeFiles/BG.dir/build.make DateStructure/Graph/CMakeFiles/BG.dir/build
+.PHONY : BG/fast
 
 # Help Target
 help:
@@ -157,11 +143,9 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Ali"
 	@echo "... edit_cache"
-	@echo "... Ali830.o"
-	@echo "... Ali830.i"
-	@echo "... Ali830.s"
+	@echo "... LIS"
+	@echo "... BG"
 .PHONY : help
 
 

@@ -65,39 +65,112 @@ CMAKE_SOURCE_DIR = /home/devinchang/Code/WritenExamination
 CMAKE_BINARY_DIR = /home/devinchang/Code/WritenExamination/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Ali.dir
+# Directory level rules for directory DateStructure/DP
+
+# Convenience name for "all" pass in the directory.
+DateStructure/DP/all: DateStructure/DP/CMakeFiles/LIS.dir/all
+
+.PHONY : DateStructure/DP/all
+
+# Convenience name for "clean" pass in the directory.
+DateStructure/DP/clean: DateStructure/DP/CMakeFiles/LIS.dir/clean
+
+.PHONY : DateStructure/DP/clean
+
+# Convenience name for "preinstall" pass in the directory.
+DateStructure/DP/preinstall:
+
+.PHONY : DateStructure/DP/preinstall
+
+#=============================================================================
+# Target rules for target DateStructure/DP/CMakeFiles/LIS.dir
 
 # All Build rule for target.
-CMakeFiles/Ali.dir/all:
-	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/depend
-	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Ali"
-.PHONY : CMakeFiles/Ali.dir/all
+DateStructure/DP/CMakeFiles/LIS.dir/all:
+	$(MAKE) -f DateStructure/DP/CMakeFiles/LIS.dir/build.make DateStructure/DP/CMakeFiles/LIS.dir/depend
+	$(MAKE) -f DateStructure/DP/CMakeFiles/LIS.dir/build.make DateStructure/DP/CMakeFiles/LIS.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target LIS"
+.PHONY : DateStructure/DP/CMakeFiles/LIS.dir/all
 
 # Include target in all.
-all: CMakeFiles/Ali.dir/all
+all: DateStructure/DP/CMakeFiles/LIS.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Ali.dir/rule: cmake_check_build_system
+DateStructure/DP/CMakeFiles/LIS.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Ali.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 DateStructure/DP/CMakeFiles/LIS.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Ali.dir/rule
+.PHONY : DateStructure/DP/CMakeFiles/LIS.dir/rule
 
 # Convenience name for target.
-Ali: CMakeFiles/Ali.dir/rule
+LIS: DateStructure/DP/CMakeFiles/LIS.dir/rule
 
-.PHONY : Ali
-
-# clean rule for target.
-CMakeFiles/Ali.dir/clean:
-	$(MAKE) -f CMakeFiles/Ali.dir/build.make CMakeFiles/Ali.dir/clean
-.PHONY : CMakeFiles/Ali.dir/clean
+.PHONY : LIS
 
 # clean rule for target.
-clean: CMakeFiles/Ali.dir/clean
+DateStructure/DP/CMakeFiles/LIS.dir/clean:
+	$(MAKE) -f DateStructure/DP/CMakeFiles/LIS.dir/build.make DateStructure/DP/CMakeFiles/LIS.dir/clean
+.PHONY : DateStructure/DP/CMakeFiles/LIS.dir/clean
+
+# clean rule for target.
+clean: DateStructure/DP/CMakeFiles/LIS.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Directory level rules for directory DateStructure/Graph
+
+# Convenience name for "all" pass in the directory.
+DateStructure/Graph/all: DateStructure/Graph/CMakeFiles/BG.dir/all
+
+.PHONY : DateStructure/Graph/all
+
+# Convenience name for "clean" pass in the directory.
+DateStructure/Graph/clean: DateStructure/Graph/CMakeFiles/BG.dir/clean
+
+.PHONY : DateStructure/Graph/clean
+
+# Convenience name for "preinstall" pass in the directory.
+DateStructure/Graph/preinstall:
+
+.PHONY : DateStructure/Graph/preinstall
+
+#=============================================================================
+# Target rules for target DateStructure/Graph/CMakeFiles/BG.dir
+
+# All Build rule for target.
+DateStructure/Graph/CMakeFiles/BG.dir/all:
+	$(MAKE) -f DateStructure/Graph/CMakeFiles/BG.dir/build.make DateStructure/Graph/CMakeFiles/BG.dir/depend
+	$(MAKE) -f DateStructure/Graph/CMakeFiles/BG.dir/build.make DateStructure/Graph/CMakeFiles/BG.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target BG"
+.PHONY : DateStructure/Graph/CMakeFiles/BG.dir/all
+
+# Include target in all.
+all: DateStructure/Graph/CMakeFiles/BG.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+DateStructure/Graph/CMakeFiles/BG.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 DateStructure/Graph/CMakeFiles/BG.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 0
+.PHONY : DateStructure/Graph/CMakeFiles/BG.dir/rule
+
+# Convenience name for target.
+BG: DateStructure/Graph/CMakeFiles/BG.dir/rule
+
+.PHONY : BG
+
+# clean rule for target.
+DateStructure/Graph/CMakeFiles/BG.dir/clean:
+	$(MAKE) -f DateStructure/Graph/CMakeFiles/BG.dir/build.make DateStructure/Graph/CMakeFiles/BG.dir/clean
+.PHONY : DateStructure/Graph/CMakeFiles/BG.dir/clean
+
+# clean rule for target.
+clean: DateStructure/Graph/CMakeFiles/BG.dir/clean
 
 .PHONY : clean
 

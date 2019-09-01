@@ -1,3 +1,8 @@
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Ali.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/CMakeFiles/LIS.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/CMakeFiles/edit_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/CMakeFiles/BG.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/Graph/CMakeFiles/edit_cache.dir
