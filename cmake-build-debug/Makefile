@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named TC
+
+# Build rule for target.
+TC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TC
+.PHONY : TC
+
+# fast build rule for target.
+TC/fast:
+	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/build
+.PHONY : TC/fast
+
+#=============================================================================
 # Target rules for targets named LIS
 
 # Build rule for target.
@@ -136,6 +149,33 @@ BG/fast:
 	$(MAKE) -f DateStructure/Graph/CMakeFiles/BG.dir/build.make DateStructure/Graph/CMakeFiles/BG.dir/build
 .PHONY : BG/fast
 
+Tencent91.o: Tencent91.cpp.o
+
+.PHONY : Tencent91.o
+
+# target to build an object file
+Tencent91.cpp.o:
+	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/Tencent91.cpp.o
+.PHONY : Tencent91.cpp.o
+
+Tencent91.i: Tencent91.cpp.i
+
+.PHONY : Tencent91.i
+
+# target to preprocess a source file
+Tencent91.cpp.i:
+	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/Tencent91.cpp.i
+.PHONY : Tencent91.cpp.i
+
+Tencent91.s: Tencent91.cpp.s
+
+.PHONY : Tencent91.s
+
+# target to generate assembly for a file
+Tencent91.cpp.s:
+	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/Tencent91.cpp.s
+.PHONY : Tencent91.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -143,9 +183,13 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... TC"
 	@echo "... edit_cache"
 	@echo "... LIS"
 	@echo "... BG"
+	@echo "... Tencent91.o"
+	@echo "... Tencent91.i"
+	@echo "... Tencent91.s"
 .PHONY : help
 
 

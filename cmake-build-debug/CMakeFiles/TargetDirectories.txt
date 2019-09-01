@@ -1,4 +1,5 @@
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/TC.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/CMakeFiles/rebuild_cache.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/CMakeFiles/LIS.dir

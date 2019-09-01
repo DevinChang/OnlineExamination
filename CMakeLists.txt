@@ -10,5 +10,8 @@ set(CMAKE_CXX_STANDARD 14)
 #add_executable(coin DateStructure/Greedy/coin.cpp)
 #add_executable(LIS DateStructure/DP/LIS.cpp)
 #add_executable(BG DateStructure/Graph/BinaryGraph.cpp)
+add_executable(TC Tencent91.cpp)
+
 ADD_SUBDIRECTORY(DateStructure/DP)
 ADD_SUBDIRECTORY(DateStructure/Graph)
+
