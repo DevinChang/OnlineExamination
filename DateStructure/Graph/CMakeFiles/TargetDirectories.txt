@@ -1,0 +1,3 @@
+/home/devinchang/Code/WritenExamination/DateStructure/Graph/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/WritenExamination/DateStructure/Graph/CMakeFiles/edit_cache.dir
+/home/devinchang/Code/WritenExamination/DateStructure/Graph/CMakeFiles/BG.dir
