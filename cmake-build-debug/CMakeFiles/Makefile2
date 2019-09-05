@@ -65,39 +65,224 @@ CMAKE_SOURCE_DIR = /home/devinchang/Code/WritenExamination
 CMAKE_BINARY_DIR = /home/devinchang/Code/WritenExamination/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/TC.dir
+# Target rules for target CMakeFiles/POJ3225.dir
 
 # All Build rule for target.
-CMakeFiles/TC.dir/all:
-	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/depend
-	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target TC"
-.PHONY : CMakeFiles/TC.dir/all
+CMakeFiles/POJ3225.dir/all:
+	$(MAKE) -f CMakeFiles/POJ3225.dir/build.make CMakeFiles/POJ3225.dir/depend
+	$(MAKE) -f CMakeFiles/POJ3225.dir/build.make CMakeFiles/POJ3225.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target POJ3225"
+.PHONY : CMakeFiles/POJ3225.dir/all
 
 # Include target in all.
-all: CMakeFiles/TC.dir/all
+all: CMakeFiles/POJ3225.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/TC.dir/rule: cmake_check_build_system
+CMakeFiles/POJ3225.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TC.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/POJ3225.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/TC.dir/rule
+.PHONY : CMakeFiles/POJ3225.dir/rule
 
 # Convenience name for target.
-TC: CMakeFiles/TC.dir/rule
+POJ3225: CMakeFiles/POJ3225.dir/rule
 
-.PHONY : TC
-
-# clean rule for target.
-CMakeFiles/TC.dir/clean:
-	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/clean
-.PHONY : CMakeFiles/TC.dir/clean
+.PHONY : POJ3225
 
 # clean rule for target.
-clean: CMakeFiles/TC.dir/clean
+CMakeFiles/POJ3225.dir/clean:
+	$(MAKE) -f CMakeFiles/POJ3225.dir/build.make CMakeFiles/POJ3225.dir/clean
+.PHONY : CMakeFiles/POJ3225.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/POJ3225.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/TestData.dir
+
+# All Build rule for target.
+CMakeFiles/TestData.dir/all:
+	$(MAKE) -f CMakeFiles/TestData.dir/build.make CMakeFiles/TestData.dir/depend
+	$(MAKE) -f CMakeFiles/TestData.dir/build.make CMakeFiles/TestData.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target TestData"
+.PHONY : CMakeFiles/TestData.dir/all
+
+# Include target in all.
+all: CMakeFiles/TestData.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/TestData.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/TestData.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/TestData.dir/rule
+
+# Convenience name for target.
+TestData: CMakeFiles/TestData.dir/rule
+
+.PHONY : TestData
+
+# clean rule for target.
+CMakeFiles/TestData.dir/clean:
+	$(MAKE) -f CMakeFiles/TestData.dir/build.make CMakeFiles/TestData.dir/clean
+.PHONY : CMakeFiles/TestData.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/TestData.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/POJ2559.dir
+
+# All Build rule for target.
+CMakeFiles/POJ2559.dir/all:
+	$(MAKE) -f CMakeFiles/POJ2559.dir/build.make CMakeFiles/POJ2559.dir/depend
+	$(MAKE) -f CMakeFiles/POJ2559.dir/build.make CMakeFiles/POJ2559.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target POJ2559"
+.PHONY : CMakeFiles/POJ2559.dir/all
+
+# Include target in all.
+all: CMakeFiles/POJ2559.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/POJ2559.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/POJ2559.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/POJ2559.dir/rule
+
+# Convenience name for target.
+POJ2559: CMakeFiles/POJ2559.dir/rule
+
+.PHONY : POJ2559
+
+# clean rule for target.
+CMakeFiles/POJ2559.dir/clean:
+	$(MAKE) -f CMakeFiles/POJ2559.dir/build.make CMakeFiles/POJ2559.dir/clean
+.PHONY : CMakeFiles/POJ2559.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/POJ2559.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Huawei.dir
+
+# All Build rule for target.
+CMakeFiles/Huawei.dir/all:
+	$(MAKE) -f CMakeFiles/Huawei.dir/build.make CMakeFiles/Huawei.dir/depend
+	$(MAKE) -f CMakeFiles/Huawei.dir/build.make CMakeFiles/Huawei.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target Huawei"
+.PHONY : CMakeFiles/Huawei.dir/all
+
+# Include target in all.
+all: CMakeFiles/Huawei.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Huawei.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Huawei.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Huawei.dir/rule
+
+# Convenience name for target.
+Huawei: CMakeFiles/Huawei.dir/rule
+
+.PHONY : Huawei
+
+# clean rule for target.
+CMakeFiles/Huawei.dir/clean:
+	$(MAKE) -f CMakeFiles/Huawei.dir/build.make CMakeFiles/Huawei.dir/clean
+.PHONY : CMakeFiles/Huawei.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Huawei.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Coin.dir
+
+# All Build rule for target.
+CMakeFiles/Coin.dir/all:
+	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/depend
+	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Coin"
+.PHONY : CMakeFiles/Coin.dir/all
+
+# Include target in all.
+all: CMakeFiles/Coin.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Coin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Coin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Coin.dir/rule
+
+# Convenience name for target.
+Coin: CMakeFiles/Coin.dir/rule
+
+.PHONY : Coin
+
+# clean rule for target.
+CMakeFiles/Coin.dir/clean:
+	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/clean
+.PHONY : CMakeFiles/Coin.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Coin.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Yun.dir
+
+# All Build rule for target.
+CMakeFiles/Yun.dir/all:
+	$(MAKE) -f CMakeFiles/Yun.dir/build.make CMakeFiles/Yun.dir/depend
+	$(MAKE) -f CMakeFiles/Yun.dir/build.make CMakeFiles/Yun.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target Yun"
+.PHONY : CMakeFiles/Yun.dir/all
+
+# Include target in all.
+all: CMakeFiles/Yun.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Yun.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Yun.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Yun.dir/rule
+
+# Convenience name for target.
+Yun: CMakeFiles/Yun.dir/rule
+
+.PHONY : Yun
+
+# clean rule for target.
+CMakeFiles/Yun.dir/clean:
+	$(MAKE) -f CMakeFiles/Yun.dir/build.make CMakeFiles/Yun.dir/clean
+.PHONY : CMakeFiles/Yun.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/Yun.dir/clean
 
 .PHONY : clean
 
@@ -126,7 +311,7 @@ DateStructure/DP/preinstall:
 DateStructure/DP/CMakeFiles/LIS.dir/all:
 	$(MAKE) -f DateStructure/DP/CMakeFiles/LIS.dir/build.make DateStructure/DP/CMakeFiles/LIS.dir/depend
 	$(MAKE) -f DateStructure/DP/CMakeFiles/LIS.dir/build.make DateStructure/DP/CMakeFiles/LIS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target LIS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target LIS"
 .PHONY : DateStructure/DP/CMakeFiles/LIS.dir/all
 
 # Include target in all.

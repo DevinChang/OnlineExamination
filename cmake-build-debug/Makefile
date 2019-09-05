@@ -111,17 +111,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named TC
+# Target rules for targets named POJ3225
 
 # Build rule for target.
-TC: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 TC
-.PHONY : TC
+POJ3225: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 POJ3225
+.PHONY : POJ3225
 
 # fast build rule for target.
-TC/fast:
-	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/build
-.PHONY : TC/fast
+POJ3225/fast:
+	$(MAKE) -f CMakeFiles/POJ3225.dir/build.make CMakeFiles/POJ3225.dir/build
+.PHONY : POJ3225/fast
+
+#=============================================================================
+# Target rules for targets named TestData
+
+# Build rule for target.
+TestData: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TestData
+.PHONY : TestData
+
+# fast build rule for target.
+TestData/fast:
+	$(MAKE) -f CMakeFiles/TestData.dir/build.make CMakeFiles/TestData.dir/build
+.PHONY : TestData/fast
+
+#=============================================================================
+# Target rules for targets named POJ2559
+
+# Build rule for target.
+POJ2559: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 POJ2559
+.PHONY : POJ2559
+
+# fast build rule for target.
+POJ2559/fast:
+	$(MAKE) -f CMakeFiles/POJ2559.dir/build.make CMakeFiles/POJ2559.dir/build
+.PHONY : POJ2559/fast
+
+#=============================================================================
+# Target rules for targets named Huawei
+
+# Build rule for target.
+Huawei: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Huawei
+.PHONY : Huawei
+
+# fast build rule for target.
+Huawei/fast:
+	$(MAKE) -f CMakeFiles/Huawei.dir/build.make CMakeFiles/Huawei.dir/build
+.PHONY : Huawei/fast
+
+#=============================================================================
+# Target rules for targets named Coin
+
+# Build rule for target.
+Coin: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Coin
+.PHONY : Coin
+
+# fast build rule for target.
+Coin/fast:
+	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/build
+.PHONY : Coin/fast
+
+#=============================================================================
+# Target rules for targets named Yun
+
+# Build rule for target.
+Yun: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Yun
+.PHONY : Yun
+
+# fast build rule for target.
+Yun/fast:
+	$(MAKE) -f CMakeFiles/Yun.dir/build.make CMakeFiles/Yun.dir/build
+.PHONY : Yun/fast
 
 #=============================================================================
 # Target rules for targets named LIS
@@ -149,32 +214,167 @@ BG/fast:
 	$(MAKE) -f DateStructure/Graph/CMakeFiles/BG.dir/build.make DateStructure/Graph/CMakeFiles/BG.dir/build
 .PHONY : BG/fast
 
-Tencent91.o: Tencent91.cpp.o
+Huaiwei94.o: Huaiwei94.cpp.o
 
-.PHONY : Tencent91.o
+.PHONY : Huaiwei94.o
 
 # target to build an object file
-Tencent91.cpp.o:
-	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/Tencent91.cpp.o
-.PHONY : Tencent91.cpp.o
+Huaiwei94.cpp.o:
+	$(MAKE) -f CMakeFiles/Huawei.dir/build.make CMakeFiles/Huawei.dir/Huaiwei94.cpp.o
+.PHONY : Huaiwei94.cpp.o
 
-Tencent91.i: Tencent91.cpp.i
+Huaiwei94.i: Huaiwei94.cpp.i
 
-.PHONY : Tencent91.i
+.PHONY : Huaiwei94.i
 
 # target to preprocess a source file
-Tencent91.cpp.i:
-	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/Tencent91.cpp.i
-.PHONY : Tencent91.cpp.i
+Huaiwei94.cpp.i:
+	$(MAKE) -f CMakeFiles/Huawei.dir/build.make CMakeFiles/Huawei.dir/Huaiwei94.cpp.i
+.PHONY : Huaiwei94.cpp.i
 
-Tencent91.s: Tencent91.cpp.s
+Huaiwei94.s: Huaiwei94.cpp.s
 
-.PHONY : Tencent91.s
+.PHONY : Huaiwei94.s
 
 # target to generate assembly for a file
-Tencent91.cpp.s:
-	$(MAKE) -f CMakeFiles/TC.dir/build.make CMakeFiles/TC.dir/Tencent91.cpp.s
-.PHONY : Tencent91.cpp.s
+Huaiwei94.cpp.s:
+	$(MAKE) -f CMakeFiles/Huawei.dir/build.make CMakeFiles/Huawei.dir/Huaiwei94.cpp.s
+.PHONY : Huaiwei94.cpp.s
+
+POJ2559.o: POJ2559.cpp.o
+
+.PHONY : POJ2559.o
+
+# target to build an object file
+POJ2559.cpp.o:
+	$(MAKE) -f CMakeFiles/POJ2559.dir/build.make CMakeFiles/POJ2559.dir/POJ2559.cpp.o
+.PHONY : POJ2559.cpp.o
+
+POJ2559.i: POJ2559.cpp.i
+
+.PHONY : POJ2559.i
+
+# target to preprocess a source file
+POJ2559.cpp.i:
+	$(MAKE) -f CMakeFiles/POJ2559.dir/build.make CMakeFiles/POJ2559.dir/POJ2559.cpp.i
+.PHONY : POJ2559.cpp.i
+
+POJ2559.s: POJ2559.cpp.s
+
+.PHONY : POJ2559.s
+
+# target to generate assembly for a file
+POJ2559.cpp.s:
+	$(MAKE) -f CMakeFiles/POJ2559.dir/build.make CMakeFiles/POJ2559.dir/POJ2559.cpp.s
+.PHONY : POJ2559.cpp.s
+
+POJ3225.o: POJ3225.cpp.o
+
+.PHONY : POJ3225.o
+
+# target to build an object file
+POJ3225.cpp.o:
+	$(MAKE) -f CMakeFiles/POJ3225.dir/build.make CMakeFiles/POJ3225.dir/POJ3225.cpp.o
+.PHONY : POJ3225.cpp.o
+
+POJ3225.i: POJ3225.cpp.i
+
+.PHONY : POJ3225.i
+
+# target to preprocess a source file
+POJ3225.cpp.i:
+	$(MAKE) -f CMakeFiles/POJ3225.dir/build.make CMakeFiles/POJ3225.dir/POJ3225.cpp.i
+.PHONY : POJ3225.cpp.i
+
+POJ3225.s: POJ3225.cpp.s
+
+.PHONY : POJ3225.s
+
+# target to generate assembly for a file
+POJ3225.cpp.s:
+	$(MAKE) -f CMakeFiles/POJ3225.dir/build.make CMakeFiles/POJ3225.dir/POJ3225.cpp.s
+.PHONY : POJ3225.cpp.s
+
+Yuncong95.o: Yuncong95.cpp.o
+
+.PHONY : Yuncong95.o
+
+# target to build an object file
+Yuncong95.cpp.o:
+	$(MAKE) -f CMakeFiles/Yun.dir/build.make CMakeFiles/Yun.dir/Yuncong95.cpp.o
+.PHONY : Yuncong95.cpp.o
+
+Yuncong95.i: Yuncong95.cpp.i
+
+.PHONY : Yuncong95.i
+
+# target to preprocess a source file
+Yuncong95.cpp.i:
+	$(MAKE) -f CMakeFiles/Yun.dir/build.make CMakeFiles/Yun.dir/Yuncong95.cpp.i
+.PHONY : Yuncong95.cpp.i
+
+Yuncong95.s: Yuncong95.cpp.s
+
+.PHONY : Yuncong95.s
+
+# target to generate assembly for a file
+Yuncong95.cpp.s:
+	$(MAKE) -f CMakeFiles/Yun.dir/build.make CMakeFiles/Yun.dir/Yuncong95.cpp.s
+.PHONY : Yuncong95.cpp.s
+
+coin.o: coin.cpp.o
+
+.PHONY : coin.o
+
+# target to build an object file
+coin.cpp.o:
+	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/coin.cpp.o
+.PHONY : coin.cpp.o
+
+coin.i: coin.cpp.i
+
+.PHONY : coin.i
+
+# target to preprocess a source file
+coin.cpp.i:
+	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/coin.cpp.i
+.PHONY : coin.cpp.i
+
+coin.s: coin.cpp.s
+
+.PHONY : coin.s
+
+# target to generate assembly for a file
+coin.cpp.s:
+	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/coin.cpp.s
+.PHONY : coin.cpp.s
+
+testdata.o: testdata.cpp.o
+
+.PHONY : testdata.o
+
+# target to build an object file
+testdata.cpp.o:
+	$(MAKE) -f CMakeFiles/TestData.dir/build.make CMakeFiles/TestData.dir/testdata.cpp.o
+.PHONY : testdata.cpp.o
+
+testdata.i: testdata.cpp.i
+
+.PHONY : testdata.i
+
+# target to preprocess a source file
+testdata.cpp.i:
+	$(MAKE) -f CMakeFiles/TestData.dir/build.make CMakeFiles/TestData.dir/testdata.cpp.i
+.PHONY : testdata.cpp.i
+
+testdata.s: testdata.cpp.s
+
+.PHONY : testdata.s
+
+# target to generate assembly for a file
+testdata.cpp.s:
+	$(MAKE) -f CMakeFiles/TestData.dir/build.make CMakeFiles/TestData.dir/testdata.cpp.s
+.PHONY : testdata.cpp.s
 
 # Help Target
 help:
@@ -183,13 +383,33 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... TC"
+	@echo "... POJ3225"
 	@echo "... edit_cache"
+	@echo "... TestData"
+	@echo "... POJ2559"
+	@echo "... Huawei"
+	@echo "... Coin"
+	@echo "... Yun"
 	@echo "... LIS"
 	@echo "... BG"
-	@echo "... Tencent91.o"
-	@echo "... Tencent91.i"
-	@echo "... Tencent91.s"
+	@echo "... Huaiwei94.o"
+	@echo "... Huaiwei94.i"
+	@echo "... Huaiwei94.s"
+	@echo "... POJ2559.o"
+	@echo "... POJ2559.i"
+	@echo "... POJ2559.s"
+	@echo "... POJ3225.o"
+	@echo "... POJ3225.i"
+	@echo "... POJ3225.s"
+	@echo "... Yuncong95.o"
+	@echo "... Yuncong95.i"
+	@echo "... Yuncong95.s"
+	@echo "... coin.o"
+	@echo "... coin.i"
+	@echo "... coin.s"
+	@echo "... testdata.o"
+	@echo "... testdata.i"
+	@echo "... testdata.s"
 .PHONY : help
 
 
