@@ -37,6 +37,23 @@ void shortest_path(int s){
     }
 }
 
+
+bool find_negative_loop(){
+    memset(d, 0, sizeof(d));
+    for(int i = 0; i < V; ++i){
+        for(int j = 0; j < E; ++j){
+            edge e = es[j];
+            if(d[e.to] > d[e.from] + e.cost){
+                d[e.to] = d[e.from] + e.cost;
+            }
+            if(i == V - 1)
+                return true;
+        }
+    }
+    return false;
+}
+
+
 int main(){
 
     return 0;

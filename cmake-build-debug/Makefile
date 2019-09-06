@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Juren
+
+# Build rule for target.
+Juren: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Juren
+.PHONY : Juren
+
+# fast build rule for target.
+Juren/fast:
+	$(MAKE) -f CMakeFiles/Juren.dir/build.make CMakeFiles/Juren.dir/build
+.PHONY : Juren/fast
+
+#=============================================================================
+# Target rules for targets named POJ3169
+
+# Build rule for target.
+POJ3169: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 POJ3169
+.PHONY : POJ3169
+
+# fast build rule for target.
+POJ3169/fast:
+	$(MAKE) -f CMakeFiles/POJ3169.dir/build.make CMakeFiles/POJ3169.dir/build
+.PHONY : POJ3169/fast
+
+#=============================================================================
 # Target rules for targets named POJ3225
 
 # Build rule for target.
@@ -241,6 +267,33 @@ Huaiwei94.cpp.s:
 	$(MAKE) -f CMakeFiles/Huawei.dir/build.make CMakeFiles/Huawei.dir/Huaiwei94.cpp.s
 .PHONY : Huaiwei94.cpp.s
 
+Juren96.o: Juren96.cpp.o
+
+.PHONY : Juren96.o
+
+# target to build an object file
+Juren96.cpp.o:
+	$(MAKE) -f CMakeFiles/Juren.dir/build.make CMakeFiles/Juren.dir/Juren96.cpp.o
+.PHONY : Juren96.cpp.o
+
+Juren96.i: Juren96.cpp.i
+
+.PHONY : Juren96.i
+
+# target to preprocess a source file
+Juren96.cpp.i:
+	$(MAKE) -f CMakeFiles/Juren.dir/build.make CMakeFiles/Juren.dir/Juren96.cpp.i
+.PHONY : Juren96.cpp.i
+
+Juren96.s: Juren96.cpp.s
+
+.PHONY : Juren96.s
+
+# target to generate assembly for a file
+Juren96.cpp.s:
+	$(MAKE) -f CMakeFiles/Juren.dir/build.make CMakeFiles/Juren.dir/Juren96.cpp.s
+.PHONY : Juren96.cpp.s
+
 POJ2559.o: POJ2559.cpp.o
 
 .PHONY : POJ2559.o
@@ -267,6 +320,33 @@ POJ2559.s: POJ2559.cpp.s
 POJ2559.cpp.s:
 	$(MAKE) -f CMakeFiles/POJ2559.dir/build.make CMakeFiles/POJ2559.dir/POJ2559.cpp.s
 .PHONY : POJ2559.cpp.s
+
+POJ3169.o: POJ3169.cpp.o
+
+.PHONY : POJ3169.o
+
+# target to build an object file
+POJ3169.cpp.o:
+	$(MAKE) -f CMakeFiles/POJ3169.dir/build.make CMakeFiles/POJ3169.dir/POJ3169.cpp.o
+.PHONY : POJ3169.cpp.o
+
+POJ3169.i: POJ3169.cpp.i
+
+.PHONY : POJ3169.i
+
+# target to preprocess a source file
+POJ3169.cpp.i:
+	$(MAKE) -f CMakeFiles/POJ3169.dir/build.make CMakeFiles/POJ3169.dir/POJ3169.cpp.i
+.PHONY : POJ3169.cpp.i
+
+POJ3169.s: POJ3169.cpp.s
+
+.PHONY : POJ3169.s
+
+# target to generate assembly for a file
+POJ3169.cpp.s:
+	$(MAKE) -f CMakeFiles/POJ3169.dir/build.make CMakeFiles/POJ3169.dir/POJ3169.cpp.s
+.PHONY : POJ3169.cpp.s
 
 POJ3225.o: POJ3225.cpp.o
 
@@ -383,6 +463,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Juren"
+	@echo "... POJ3169"
 	@echo "... POJ3225"
 	@echo "... edit_cache"
 	@echo "... TestData"
@@ -395,9 +477,15 @@ help:
 	@echo "... Huaiwei94.o"
 	@echo "... Huaiwei94.i"
 	@echo "... Huaiwei94.s"
+	@echo "... Juren96.o"
+	@echo "... Juren96.i"
+	@echo "... Juren96.s"
 	@echo "... POJ2559.o"
 	@echo "... POJ2559.i"
 	@echo "... POJ2559.s"
+	@echo "... POJ3169.o"
+	@echo "... POJ3169.i"
+	@echo "... POJ3169.s"
 	@echo "... POJ3225.o"
 	@echo "... POJ3225.i"
 	@echo "... POJ3225.s"

@@ -17,6 +17,8 @@ add_executable(POJ2559 POJ2559.cpp)
 add_executable(Huawei Huaiwei94.cpp)
 add_executable(Coin coin.cpp)
 add_executable(Yun Yuncong95.cpp)
+add_executable(POJ3169 POJ3169.cpp)
+add_executable(Juren Juren96.cpp)
 
 ADD_SUBDIRECTORY(DateStructure/DP)
 ADD_SUBDIRECTORY(DateStructure/Graph)

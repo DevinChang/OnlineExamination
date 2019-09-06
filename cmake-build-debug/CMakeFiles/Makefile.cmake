@@ -52,6 +52,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Juren.dir/DependInfo.cmake"
+  "CMakeFiles/POJ3169.dir/DependInfo.cmake"
   "CMakeFiles/POJ3225.dir/DependInfo.cmake"
   "CMakeFiles/TestData.dir/DependInfo.cmake"
   "CMakeFiles/POJ2559.dir/DependInfo.cmake"

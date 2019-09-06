@@ -1,4 +1,6 @@
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Juren.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/POJ3169.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/POJ3225.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/TestData.dir
