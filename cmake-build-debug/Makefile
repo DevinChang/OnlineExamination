@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Zijie
+
+# Build rule for target.
+Zijie: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Zijie
+.PHONY : Zijie
+
+# fast build rule for target.
+Zijie/fast:
+	$(MAKE) -f CMakeFiles/Zijie.dir/build.make CMakeFiles/Zijie.dir/build
+.PHONY : Zijie/fast
+
+#=============================================================================
+# Target rules for targets named Mihaoyou
+
+# Build rule for target.
+Mihaoyou: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Mihaoyou
+.PHONY : Mihaoyou
+
+# fast build rule for target.
+Mihaoyou/fast:
+	$(MAKE) -f CMakeFiles/Mihaoyou.dir/build.make CMakeFiles/Mihaoyou.dir/build
+.PHONY : Mihaoyou/fast
+
+#=============================================================================
 # Target rules for targets named Juren
 
 # Build rule for target.
@@ -200,6 +226,19 @@ Coin: cmake_check_build_system
 Coin/fast:
 	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/build
 .PHONY : Coin/fast
+
+#=============================================================================
+# Target rules for targets named Sougou
+
+# Build rule for target.
+Sougou: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Sougou
+.PHONY : Sougou
+
+# fast build rule for target.
+Sougou/fast:
+	$(MAKE) -f CMakeFiles/Sougou.dir/build.make CMakeFiles/Sougou.dir/build
+.PHONY : Sougou/fast
 
 #=============================================================================
 # Target rules for targets named Yun
@@ -294,6 +333,33 @@ Juren96.cpp.s:
 	$(MAKE) -f CMakeFiles/Juren.dir/build.make CMakeFiles/Juren.dir/Juren96.cpp.s
 .PHONY : Juren96.cpp.s
 
+Mihaoyou97.o: Mihaoyou97.cpp.o
+
+.PHONY : Mihaoyou97.o
+
+# target to build an object file
+Mihaoyou97.cpp.o:
+	$(MAKE) -f CMakeFiles/Mihaoyou.dir/build.make CMakeFiles/Mihaoyou.dir/Mihaoyou97.cpp.o
+.PHONY : Mihaoyou97.cpp.o
+
+Mihaoyou97.i: Mihaoyou97.cpp.i
+
+.PHONY : Mihaoyou97.i
+
+# target to preprocess a source file
+Mihaoyou97.cpp.i:
+	$(MAKE) -f CMakeFiles/Mihaoyou.dir/build.make CMakeFiles/Mihaoyou.dir/Mihaoyou97.cpp.i
+.PHONY : Mihaoyou97.cpp.i
+
+Mihaoyou97.s: Mihaoyou97.cpp.s
+
+.PHONY : Mihaoyou97.s
+
+# target to generate assembly for a file
+Mihaoyou97.cpp.s:
+	$(MAKE) -f CMakeFiles/Mihaoyou.dir/build.make CMakeFiles/Mihaoyou.dir/Mihaoyou97.cpp.s
+.PHONY : Mihaoyou97.cpp.s
+
 POJ2559.o: POJ2559.cpp.o
 
 .PHONY : POJ2559.o
@@ -375,6 +441,33 @@ POJ3225.cpp.s:
 	$(MAKE) -f CMakeFiles/POJ3225.dir/build.make CMakeFiles/POJ3225.dir/POJ3225.cpp.s
 .PHONY : POJ3225.cpp.s
 
+Sougou98.o: Sougou98.cpp.o
+
+.PHONY : Sougou98.o
+
+# target to build an object file
+Sougou98.cpp.o:
+	$(MAKE) -f CMakeFiles/Sougou.dir/build.make CMakeFiles/Sougou.dir/Sougou98.cpp.o
+.PHONY : Sougou98.cpp.o
+
+Sougou98.i: Sougou98.cpp.i
+
+.PHONY : Sougou98.i
+
+# target to preprocess a source file
+Sougou98.cpp.i:
+	$(MAKE) -f CMakeFiles/Sougou.dir/build.make CMakeFiles/Sougou.dir/Sougou98.cpp.i
+.PHONY : Sougou98.cpp.i
+
+Sougou98.s: Sougou98.cpp.s
+
+.PHONY : Sougou98.s
+
+# target to generate assembly for a file
+Sougou98.cpp.s:
+	$(MAKE) -f CMakeFiles/Sougou.dir/build.make CMakeFiles/Sougou.dir/Sougou98.cpp.s
+.PHONY : Sougou98.cpp.s
+
 Yuncong95.o: Yuncong95.cpp.o
 
 .PHONY : Yuncong95.o
@@ -401,6 +494,33 @@ Yuncong95.s: Yuncong95.cpp.s
 Yuncong95.cpp.s:
 	$(MAKE) -f CMakeFiles/Yun.dir/build.make CMakeFiles/Yun.dir/Yuncong95.cpp.s
 .PHONY : Yuncong95.cpp.s
+
+Zijietiaodong98.o: Zijietiaodong98.cpp.o
+
+.PHONY : Zijietiaodong98.o
+
+# target to build an object file
+Zijietiaodong98.cpp.o:
+	$(MAKE) -f CMakeFiles/Zijie.dir/build.make CMakeFiles/Zijie.dir/Zijietiaodong98.cpp.o
+.PHONY : Zijietiaodong98.cpp.o
+
+Zijietiaodong98.i: Zijietiaodong98.cpp.i
+
+.PHONY : Zijietiaodong98.i
+
+# target to preprocess a source file
+Zijietiaodong98.cpp.i:
+	$(MAKE) -f CMakeFiles/Zijie.dir/build.make CMakeFiles/Zijie.dir/Zijietiaodong98.cpp.i
+.PHONY : Zijietiaodong98.cpp.i
+
+Zijietiaodong98.s: Zijietiaodong98.cpp.s
+
+.PHONY : Zijietiaodong98.s
+
+# target to generate assembly for a file
+Zijietiaodong98.cpp.s:
+	$(MAKE) -f CMakeFiles/Zijie.dir/build.make CMakeFiles/Zijie.dir/Zijietiaodong98.cpp.s
+.PHONY : Zijietiaodong98.cpp.s
 
 coin.o: coin.cpp.o
 
@@ -463,6 +583,8 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Zijie"
+	@echo "... Mihaoyou"
 	@echo "... Juren"
 	@echo "... POJ3169"
 	@echo "... POJ3225"
@@ -471,6 +593,7 @@ help:
 	@echo "... POJ2559"
 	@echo "... Huawei"
 	@echo "... Coin"
+	@echo "... Sougou"
 	@echo "... Yun"
 	@echo "... LIS"
 	@echo "... BG"
@@ -480,6 +603,9 @@ help:
 	@echo "... Juren96.o"
 	@echo "... Juren96.i"
 	@echo "... Juren96.s"
+	@echo "... Mihaoyou97.o"
+	@echo "... Mihaoyou97.i"
+	@echo "... Mihaoyou97.s"
 	@echo "... POJ2559.o"
 	@echo "... POJ2559.i"
 	@echo "... POJ2559.s"
@@ -489,9 +615,15 @@ help:
 	@echo "... POJ3225.o"
 	@echo "... POJ3225.i"
 	@echo "... POJ3225.s"
+	@echo "... Sougou98.o"
+	@echo "... Sougou98.i"
+	@echo "... Sougou98.s"
 	@echo "... Yuncong95.o"
 	@echo "... Yuncong95.i"
 	@echo "... Yuncong95.s"
+	@echo "... Zijietiaodong98.o"
+	@echo "... Zijietiaodong98.i"
+	@echo "... Zijietiaodong98.s"
 	@echo "... coin.o"
 	@echo "... coin.i"
 	@echo "... coin.s"

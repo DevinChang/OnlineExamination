@@ -1,4 +1,6 @@
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Zijie.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Mihaoyou.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Juren.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/POJ3169.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/POJ3225.dir
@@ -7,6 +9,7 @@
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/POJ2559.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Huawei.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Coin.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Sougou.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Yun.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/CMakeFiles/rebuild_cache.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/CMakeFiles/LIS.dir

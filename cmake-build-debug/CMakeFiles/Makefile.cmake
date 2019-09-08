@@ -52,6 +52,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Zijie.dir/DependInfo.cmake"
+  "CMakeFiles/Mihaoyou.dir/DependInfo.cmake"
   "CMakeFiles/Juren.dir/DependInfo.cmake"
   "CMakeFiles/POJ3169.dir/DependInfo.cmake"
   "CMakeFiles/POJ3225.dir/DependInfo.cmake"
@@ -59,6 +61,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/POJ2559.dir/DependInfo.cmake"
   "CMakeFiles/Huawei.dir/DependInfo.cmake"
   "CMakeFiles/Coin.dir/DependInfo.cmake"
+  "CMakeFiles/Sougou.dir/DependInfo.cmake"
   "CMakeFiles/Yun.dir/DependInfo.cmake"
   "DateStructure/DP/CMakeFiles/LIS.dir/DependInfo.cmake"
   "DateStructure/Graph/CMakeFiles/BG.dir/DependInfo.cmake"
