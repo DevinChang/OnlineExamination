@@ -84,7 +84,7 @@ string RandomString()
 int main()
 {
     int m=0;
-    ofstream in("in.txt");
+    ofstream in("poj2456.txt");
     srand((unsigned)time(NULL));
     for(int i=0;i<100;i++){
         //cout<<RandomLL()<<endl;
@@ -92,7 +92,7 @@ int main()
         in << RandomLL() << endl;
     }
     long long a, b;
-    freopen("in.txt", "r", stdin);
+    freopen("poj2456.txt", "r", stdin);
     cin >> a >> b;
     cout << a << " " << b << endl;
     return 0;
