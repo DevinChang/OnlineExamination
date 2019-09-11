@@ -26,6 +26,7 @@ add_executable(POJ1064 POJ1064.cpp)
 add_executable(POJ2456 POJ2456.cpp)
 add_executable(YY YY99.cpp)
 add_executable(Sanqi Sanqi910.cpp)
+add_executable(Trick DateStructure/Trick/poj3061_subseq.cpp)
 
 
 ADD_SUBDIRECTORY(DateStructure/DP)

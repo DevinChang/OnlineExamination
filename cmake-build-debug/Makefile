@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Trick
+
+# Build rule for target.
+Trick: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Trick
+.PHONY : Trick
+
+# fast build rule for target.
+Trick/fast:
+	$(MAKE) -f CMakeFiles/Trick.dir/build.make CMakeFiles/Trick.dir/build
+.PHONY : Trick/fast
+
+#=============================================================================
 # Target rules for targets named Coin
 
 # Build rule for target.
@@ -343,6 +356,33 @@ BG: cmake_check_build_system
 BG/fast:
 	$(MAKE) -f DateStructure/Graph/CMakeFiles/BG.dir/build.make DateStructure/Graph/CMakeFiles/BG.dir/build
 .PHONY : BG/fast
+
+DateStructure/Trick/poj3061_subseq.o: DateStructure/Trick/poj3061_subseq.cpp.o
+
+.PHONY : DateStructure/Trick/poj3061_subseq.o
+
+# target to build an object file
+DateStructure/Trick/poj3061_subseq.cpp.o:
+	$(MAKE) -f CMakeFiles/Trick.dir/build.make CMakeFiles/Trick.dir/DateStructure/Trick/poj3061_subseq.cpp.o
+.PHONY : DateStructure/Trick/poj3061_subseq.cpp.o
+
+DateStructure/Trick/poj3061_subseq.i: DateStructure/Trick/poj3061_subseq.cpp.i
+
+.PHONY : DateStructure/Trick/poj3061_subseq.i
+
+# target to preprocess a source file
+DateStructure/Trick/poj3061_subseq.cpp.i:
+	$(MAKE) -f CMakeFiles/Trick.dir/build.make CMakeFiles/Trick.dir/DateStructure/Trick/poj3061_subseq.cpp.i
+.PHONY : DateStructure/Trick/poj3061_subseq.cpp.i
+
+DateStructure/Trick/poj3061_subseq.s: DateStructure/Trick/poj3061_subseq.cpp.s
+
+.PHONY : DateStructure/Trick/poj3061_subseq.s
+
+# target to generate assembly for a file
+DateStructure/Trick/poj3061_subseq.cpp.s:
+	$(MAKE) -f CMakeFiles/Trick.dir/build.make CMakeFiles/Trick.dir/DateStructure/Trick/poj3061_subseq.cpp.s
+.PHONY : DateStructure/Trick/poj3061_subseq.cpp.s
 
 Huaiwei94.o: Huaiwei94.cpp.o
 
@@ -783,6 +823,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... Trick"
 	@echo "... Coin"
 	@echo "... rebuild_cache"
 	@echo "... TC"
@@ -802,6 +843,9 @@ help:
 	@echo "... Sanqi"
 	@echo "... LIS"
 	@echo "... BG"
+	@echo "... DateStructure/Trick/poj3061_subseq.o"
+	@echo "... DateStructure/Trick/poj3061_subseq.i"
+	@echo "... DateStructure/Trick/poj3061_subseq.s"
 	@echo "... Huaiwei94.o"
 	@echo "... Huaiwei94.i"
 	@echo "... Huaiwei94.s"

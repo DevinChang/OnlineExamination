@@ -52,6 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/Trick.dir/DependInfo.cmake"
   "CMakeFiles/Coin.dir/DependInfo.cmake"
   "CMakeFiles/TC.dir/DependInfo.cmake"
   "CMakeFiles/Huawei.dir/DependInfo.cmake"
