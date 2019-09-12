@@ -111,6 +111,32 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PartSum
+
+# Build rule for target.
+PartSum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PartSum
+.PHONY : PartSum
+
+# fast build rule for target.
+PartSum/fast:
+	$(MAKE) -f CMakeFiles/PartSum.dir/build.make CMakeFiles/PartSum.dir/build
+.PHONY : PartSum/fast
+
+#=============================================================================
+# Target rules for targets named Liuli
+
+# Build rule for target.
+Liuli: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Liuli
+.PHONY : Liuli
+
+# fast build rule for target.
+Liuli/fast:
+	$(MAKE) -f CMakeFiles/Liuli.dir/build.make CMakeFiles/Liuli.dir/build
+.PHONY : Liuli/fast
+
+#=============================================================================
 # Target rules for targets named Trick
 
 # Build rule for target.
@@ -135,6 +161,19 @@ Coin: cmake_check_build_system
 Coin/fast:
 	$(MAKE) -f CMakeFiles/Coin.dir/build.make CMakeFiles/Coin.dir/build
 .PHONY : Coin/fast
+
+#=============================================================================
+# Target rules for targets named POJ2386
+
+# Build rule for target.
+POJ2386: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 POJ2386
+.PHONY : POJ2386
+
+# fast build rule for target.
+POJ2386/fast:
+	$(MAKE) -f CMakeFiles/POJ2386.dir/build.make CMakeFiles/POJ2386.dir/build
+.PHONY : POJ2386/fast
 
 #=============================================================================
 # Target rules for targets named TC
@@ -306,6 +345,19 @@ POJ1064/fast:
 .PHONY : POJ1064/fast
 
 #=============================================================================
+# Target rules for targets named ShortPath
+
+# Build rule for target.
+ShortPath: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ShortPath
+.PHONY : ShortPath
+
+# fast build rule for target.
+ShortPath/fast:
+	$(MAKE) -f CMakeFiles/ShortPath.dir/build.make CMakeFiles/ShortPath.dir/build
+.PHONY : ShortPath/fast
+
+#=============================================================================
 # Target rules for targets named YY
 
 # Build rule for target.
@@ -356,6 +408,87 @@ BG: cmake_check_build_system
 BG/fast:
 	$(MAKE) -f DateStructure/Graph/CMakeFiles/BG.dir/build.make DateStructure/Graph/CMakeFiles/BG.dir/build
 .PHONY : BG/fast
+
+DateStructure/BruceSearch/POJ2386.o: DateStructure/BruceSearch/POJ2386.cpp.o
+
+.PHONY : DateStructure/BruceSearch/POJ2386.o
+
+# target to build an object file
+DateStructure/BruceSearch/POJ2386.cpp.o:
+	$(MAKE) -f CMakeFiles/POJ2386.dir/build.make CMakeFiles/POJ2386.dir/DateStructure/BruceSearch/POJ2386.cpp.o
+.PHONY : DateStructure/BruceSearch/POJ2386.cpp.o
+
+DateStructure/BruceSearch/POJ2386.i: DateStructure/BruceSearch/POJ2386.cpp.i
+
+.PHONY : DateStructure/BruceSearch/POJ2386.i
+
+# target to preprocess a source file
+DateStructure/BruceSearch/POJ2386.cpp.i:
+	$(MAKE) -f CMakeFiles/POJ2386.dir/build.make CMakeFiles/POJ2386.dir/DateStructure/BruceSearch/POJ2386.cpp.i
+.PHONY : DateStructure/BruceSearch/POJ2386.cpp.i
+
+DateStructure/BruceSearch/POJ2386.s: DateStructure/BruceSearch/POJ2386.cpp.s
+
+.PHONY : DateStructure/BruceSearch/POJ2386.s
+
+# target to generate assembly for a file
+DateStructure/BruceSearch/POJ2386.cpp.s:
+	$(MAKE) -f CMakeFiles/POJ2386.dir/build.make CMakeFiles/POJ2386.dir/DateStructure/BruceSearch/POJ2386.cpp.s
+.PHONY : DateStructure/BruceSearch/POJ2386.cpp.s
+
+DateStructure/BruceSearch/PartSum.o: DateStructure/BruceSearch/PartSum.cpp.o
+
+.PHONY : DateStructure/BruceSearch/PartSum.o
+
+# target to build an object file
+DateStructure/BruceSearch/PartSum.cpp.o:
+	$(MAKE) -f CMakeFiles/PartSum.dir/build.make CMakeFiles/PartSum.dir/DateStructure/BruceSearch/PartSum.cpp.o
+.PHONY : DateStructure/BruceSearch/PartSum.cpp.o
+
+DateStructure/BruceSearch/PartSum.i: DateStructure/BruceSearch/PartSum.cpp.i
+
+.PHONY : DateStructure/BruceSearch/PartSum.i
+
+# target to preprocess a source file
+DateStructure/BruceSearch/PartSum.cpp.i:
+	$(MAKE) -f CMakeFiles/PartSum.dir/build.make CMakeFiles/PartSum.dir/DateStructure/BruceSearch/PartSum.cpp.i
+.PHONY : DateStructure/BruceSearch/PartSum.cpp.i
+
+DateStructure/BruceSearch/PartSum.s: DateStructure/BruceSearch/PartSum.cpp.s
+
+.PHONY : DateStructure/BruceSearch/PartSum.s
+
+# target to generate assembly for a file
+DateStructure/BruceSearch/PartSum.cpp.s:
+	$(MAKE) -f CMakeFiles/PartSum.dir/build.make CMakeFiles/PartSum.dir/DateStructure/BruceSearch/PartSum.cpp.s
+.PHONY : DateStructure/BruceSearch/PartSum.cpp.s
+
+DateStructure/BruceSearch/ShortPath_BFS.o: DateStructure/BruceSearch/ShortPath_BFS.cpp.o
+
+.PHONY : DateStructure/BruceSearch/ShortPath_BFS.o
+
+# target to build an object file
+DateStructure/BruceSearch/ShortPath_BFS.cpp.o:
+	$(MAKE) -f CMakeFiles/ShortPath.dir/build.make CMakeFiles/ShortPath.dir/DateStructure/BruceSearch/ShortPath_BFS.cpp.o
+.PHONY : DateStructure/BruceSearch/ShortPath_BFS.cpp.o
+
+DateStructure/BruceSearch/ShortPath_BFS.i: DateStructure/BruceSearch/ShortPath_BFS.cpp.i
+
+.PHONY : DateStructure/BruceSearch/ShortPath_BFS.i
+
+# target to preprocess a source file
+DateStructure/BruceSearch/ShortPath_BFS.cpp.i:
+	$(MAKE) -f CMakeFiles/ShortPath.dir/build.make CMakeFiles/ShortPath.dir/DateStructure/BruceSearch/ShortPath_BFS.cpp.i
+.PHONY : DateStructure/BruceSearch/ShortPath_BFS.cpp.i
+
+DateStructure/BruceSearch/ShortPath_BFS.s: DateStructure/BruceSearch/ShortPath_BFS.cpp.s
+
+.PHONY : DateStructure/BruceSearch/ShortPath_BFS.s
+
+# target to generate assembly for a file
+DateStructure/BruceSearch/ShortPath_BFS.cpp.s:
+	$(MAKE) -f CMakeFiles/ShortPath.dir/build.make CMakeFiles/ShortPath.dir/DateStructure/BruceSearch/ShortPath_BFS.cpp.s
+.PHONY : DateStructure/BruceSearch/ShortPath_BFS.cpp.s
 
 DateStructure/Trick/poj3061_subseq.o: DateStructure/Trick/poj3061_subseq.cpp.o
 
@@ -437,6 +570,33 @@ Juren96.s: Juren96.cpp.s
 Juren96.cpp.s:
 	$(MAKE) -f CMakeFiles/Juren.dir/build.make CMakeFiles/Juren.dir/Juren96.cpp.s
 .PHONY : Juren96.cpp.s
+
+Liulishuo911.o: Liulishuo911.cpp.o
+
+.PHONY : Liulishuo911.o
+
+# target to build an object file
+Liulishuo911.cpp.o:
+	$(MAKE) -f CMakeFiles/Liuli.dir/build.make CMakeFiles/Liuli.dir/Liulishuo911.cpp.o
+.PHONY : Liulishuo911.cpp.o
+
+Liulishuo911.i: Liulishuo911.cpp.i
+
+.PHONY : Liulishuo911.i
+
+# target to preprocess a source file
+Liulishuo911.cpp.i:
+	$(MAKE) -f CMakeFiles/Liuli.dir/build.make CMakeFiles/Liuli.dir/Liulishuo911.cpp.i
+.PHONY : Liulishuo911.cpp.i
+
+Liulishuo911.s: Liulishuo911.cpp.s
+
+.PHONY : Liulishuo911.s
+
+# target to generate assembly for a file
+Liulishuo911.cpp.s:
+	$(MAKE) -f CMakeFiles/Liuli.dir/build.make CMakeFiles/Liuli.dir/Liulishuo911.cpp.s
+.PHONY : Liulishuo911.cpp.s
 
 Mihaoyou97.o: Mihaoyou97.cpp.o
 
@@ -823,9 +983,12 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... PartSum"
+	@echo "... Liuli"
 	@echo "... Trick"
 	@echo "... Coin"
 	@echo "... rebuild_cache"
+	@echo "... POJ2386"
 	@echo "... TC"
 	@echo "... Huawei"
 	@echo "... POJ2456"
@@ -839,10 +1002,20 @@ help:
 	@echo "... Mihaoyou"
 	@echo "... Zijie"
 	@echo "... POJ1064"
+	@echo "... ShortPath"
 	@echo "... YY"
 	@echo "... Sanqi"
 	@echo "... LIS"
 	@echo "... BG"
+	@echo "... DateStructure/BruceSearch/POJ2386.o"
+	@echo "... DateStructure/BruceSearch/POJ2386.i"
+	@echo "... DateStructure/BruceSearch/POJ2386.s"
+	@echo "... DateStructure/BruceSearch/PartSum.o"
+	@echo "... DateStructure/BruceSearch/PartSum.i"
+	@echo "... DateStructure/BruceSearch/PartSum.s"
+	@echo "... DateStructure/BruceSearch/ShortPath_BFS.o"
+	@echo "... DateStructure/BruceSearch/ShortPath_BFS.i"
+	@echo "... DateStructure/BruceSearch/ShortPath_BFS.s"
 	@echo "... DateStructure/Trick/poj3061_subseq.o"
 	@echo "... DateStructure/Trick/poj3061_subseq.i"
 	@echo "... DateStructure/Trick/poj3061_subseq.s"
@@ -852,6 +1025,9 @@ help:
 	@echo "... Juren96.o"
 	@echo "... Juren96.i"
 	@echo "... Juren96.s"
+	@echo "... Liulishuo911.o"
+	@echo "... Liulishuo911.i"
+	@echo "... Liulishuo911.s"
 	@echo "... Mihaoyou97.o"
 	@echo "... Mihaoyou97.i"
 	@echo "... Mihaoyou97.s"

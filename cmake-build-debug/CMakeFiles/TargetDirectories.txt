@@ -1,7 +1,10 @@
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/PartSum.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Liuli.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Trick.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Coin.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/POJ2386.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/TC.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Huawei.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/POJ2456.dir
@@ -15,6 +18,7 @@
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Mihaoyou.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Zijie.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/POJ1064.dir
+/home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/ShortPath.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/YY.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/CMakeFiles/Sanqi.dir
 /home/devinchang/Code/WritenExamination/cmake-build-debug/DateStructure/DP/CMakeFiles/rebuild_cache.dir

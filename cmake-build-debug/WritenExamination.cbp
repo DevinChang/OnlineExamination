@@ -27,6 +27,98 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="PartSum">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/PartSum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 PartSum"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PartSum/fast">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/PartSum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 PartSum/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Liuli">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/Liuli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 Liuli"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Liuli/fast">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/Liuli" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 Liuli/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="Trick">
 				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/Trick" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
@@ -124,6 +216,52 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="POJ2386">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/POJ2386" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 POJ2386"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="POJ2386/fast">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/POJ2386" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 POJ2386/fast"/>
 					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -727,6 +865,52 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="ShortPath">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/ShortPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 ShortPath"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ShortPath/fast">
+				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/ShortPath" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 ShortPath/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/devinchang/Code/WritenExamination/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="YY">
 				<Option output="/home/devinchang/Code/WritenExamination/cmake-build-debug/YY" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir=""/>
@@ -912,6 +1096,15 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/BruceSearch/POJ2386.cpp">
+			<Option target="POJ2386"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/BruceSearch/PartSum.cpp">
+			<Option target="PartSum"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/BruceSearch/ShortPath_BFS.cpp">
+			<Option target="ShortPath"/>
+		</Unit>
 		<Unit filename="/home/devinchang/Code/WritenExamination/DateStructure/DP/LIS.cpp">
 			<Option target="LIS"/>
 		</Unit>
@@ -926,6 +1119,9 @@
 		</Unit>
 		<Unit filename="/home/devinchang/Code/WritenExamination/Juren96.cpp">
 			<Option target="Juren"/>
+		</Unit>
+		<Unit filename="/home/devinchang/Code/WritenExamination/Liulishuo911.cpp">
+			<Option target="Liuli"/>
 		</Unit>
 		<Unit filename="/home/devinchang/Code/WritenExamination/Mihaoyou97.cpp">
 			<Option target="Mihaoyou"/>

@@ -27,7 +27,10 @@ add_executable(POJ2456 POJ2456.cpp)
 add_executable(YY YY99.cpp)
 add_executable(Sanqi Sanqi910.cpp)
 add_executable(Trick DateStructure/Trick/poj3061_subseq.cpp)
-
+add_executable(Liuli Liulishuo911.cpp)
+add_executable(PartSum DateStructure/BruceSearch/PartSum.cpp)
+add_executable(POJ2386 DateStructure/BruceSearch/POJ2386.cpp)
+add_executable(ShortPath DateStructure/BruceSearch/ShortPath_BFS.cpp)
 
 ADD_SUBDIRECTORY(DateStructure/DP)
 ADD_SUBDIRECTORY(DateStructure/Graph)
